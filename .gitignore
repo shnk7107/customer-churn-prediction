@@ -1,19 +1,9 @@
-# Python / env
 venv/
-env/
-.venv/
+*.pkl
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-
-# IDE / OS
+.ipynb_checkpoints/
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Logs
-*.log
