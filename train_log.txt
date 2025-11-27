@@ -1,0 +1,45 @@
+--- LogisticRegression ---
+Accuracy: 0.7981520966595593
+Precision: 0.6355421686746988
+Recall: 0.5641711229946524
+F1: 0.5977337110481586
+              precision    recall  f1-score   support
+
+           0     0.8484    0.8829    0.8653      1033
+           1     0.6355    0.5642    0.5977       374
+
+    accuracy                         0.7982      1407
+   macro avg     0.7420    0.7235    0.7315      1407
+weighted avg     0.7918    0.7982    0.7942      1407
+
+--- RandomForest ---
+Accuracy: 0.7882018479033405
+Precision: 0.6301369863013698
+Recall: 0.4919786096256685
+F1: 0.5525525525525525
+              precision    recall  f1-score   support
+
+           0     0.8296    0.8955    0.8613      1033
+           1     0.6301    0.4920    0.5526       374
+
+    accuracy                         0.7882      1407
+   macro avg     0.7299    0.6937    0.7069      1407
+weighted avg     0.7766    0.7882    0.7792      1407
+
+--- XGBoost ---
+Accuracy: 0.7782515991471215
+Precision: 0.5890804597701149
+Recall: 0.5481283422459893
+F1: 0.5678670360110804
+              precision    recall  f1-score   support
+
+           0     0.8404    0.8616    0.8509      1033
+           1     0.5891    0.5481    0.5679       374
+
+    accuracy                         0.7783      1407
+   macro avg     0.7147    0.7048    0.7094      1407
+weighted avg     0.7736    0.7783    0.7756      1407
+
+Best model by F1: LogisticRegression
+Saved best model as models/best_model.pkl
+Saved results summary to models/results_summary.csv
