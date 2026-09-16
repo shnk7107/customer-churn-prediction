@@ -240,6 +240,3 @@ http://localhost:5000
 
 Machine Learning Laboratory Project
 November 2025
-
-```
-```
